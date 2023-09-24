@@ -44,7 +44,7 @@ function showResult() {
             };
 
             var resultDiv = document.getElementById('result');
-            resultDiv.innerHTML = `A類分數：${results.A}，B類分數：${results.B}，C類分數：${results.C}，D類分數：${results.D}`;
+            resultDiv.innerHTML = `四軸飛行器/穿越機：${results.A}，直升機：${results.B}，固定翼/滑翔翼：${results.C}，DIY自組無人機：${results.D}`;
 
             console.log("計算完成，結果已顯示在頁面上");
 
@@ -70,7 +70,7 @@ function renderChart(results) {
     myChart = new Chart(ctx, {
         type: 'pie',
         data: {
-            labels: ['A類', 'B類', 'C類', 'D類'],
+            labels: ['四軸飛行器/穿越機', '直升機', '固定翼/滑翔翼', 'DIY自組無人機'],
             datasets: [{
                 data: [results.A, results.B, results.C, results.D],
                 backgroundColor: [
