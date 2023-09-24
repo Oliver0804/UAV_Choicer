@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>UAV_Choicer</h1>
+    <div id="questions"></div>
     <h2>1. 你偏好的休閒活動是什麼？</h2>
     <ul>
         <li><input type="radio" name="question1" value="A"> 閱讀書籍</li>
@@ -35,5 +36,19 @@
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script defer src="js/script.js"></script>
-</body>
+    <script>
+        fetch('questions.json')
+        .then(response => response.json())
+        .then(data => {
+          const questionsDiv = document.getElementById('questions');
+          data.forEach((item, index) => {
+            const questionHTML = `
+              <h2>${index + 1}. ${item.question}</h2>
+              <ul>
+                ${Object.keys(item.options).map(key => `<li><input type="radio" name="question${index + 1}" value="${key}"> ${item.options[key]}</li>`).join('')}
+              </ul>
+            `;
+            questionsDiv.innerHTML += questionHTML;
+          });
+        });</script>
 </html>
