@@ -4,6 +4,7 @@ function showResult() {
     let scoreB = 0;
     let scoreC = 0;
     let scoreD = 0;
+    let unselectedQuestions = [];
 
     console.log("開始計算分數...");
 
@@ -11,7 +12,16 @@ function showResult() {
         .then(response => response.json())
         .then(questions => {
             questions.forEach((question, index) => {
-                let selectedValue = document.querySelector(`input[name="question${index + 1}"]:checked`).value;
+                let selectedOption = document.querySelector(`input[name="question${index + 1}"]:checked`);
+
+                if (!selectedOption) {
+                    // 使用者沒有選該選項，將該題號存入未選題目列表
+                    unselectedQuestions.push(index + 1);
+                    console.log(`問題${index + 1}沒有選擇答案，將其分數設為0。`);
+                    return; // 跳過此題，不進行分數計算
+                }
+
+                let selectedValue = selectedOption.value;
 
                 console.log(`問題${index + 1}選擇的答案是: ${selectedValue}`);
 
@@ -35,6 +45,10 @@ function showResult() {
                         break;
                 }
             });
+
+            if (unselectedQuestions.length > 0) {
+                alert(`以下問題未選擇答案: ${unselectedQuestions.join(", ")}`);
+            }
 
             let results = {
                 A: scoreA,
@@ -88,5 +102,6 @@ function renderChart(results) {
                 borderWidth: 1
             }]
         },
+
     });
 }

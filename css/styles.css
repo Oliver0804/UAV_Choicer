@@ -66,4 +66,8 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* 如果你想要更進一步的自定義或者有特定的風格需求，你可以根據這個基礎來擴展。 */
+
+#myChart {
+    width: 400px;
+    height: 400px;
+}
