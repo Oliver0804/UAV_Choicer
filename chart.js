@@ -1,5 +1,4 @@
 <!-- 引入 Chart.js -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <!-- 創建一個 <canvas> 元素來放置你的圓餅圖 -->
 <canvas id="myChart"></canvas>
