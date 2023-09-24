@@ -17,6 +17,7 @@ function showResult() {
     };
 
     document.getElementById("result").innerText = `A: ${scoreA}, B: ${scoreB}, C: ${scoreC}, D: ${scoreD}`; 
+    resultDiv.innerHTML = `A類分數：${scores.A}，B類分數：${scores.B}，C類分數：${scores.C}，D類分數：${scores.D}`;
 
     renderChart(results);
 }
