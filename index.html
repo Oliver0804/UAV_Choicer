@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>心理測驗</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>心理測驗</h1>
+    <h2>1. 你偏好的休閒活動是什麼？</h2>
+    <ul>
+        <li><input type="radio" name="question1" value="A"> 閱讀書籍</li>
+        <li><input type="radio" name="question1" value="B"> 運動或健身</li>
+        <li><input type="radio" name="question1" value="C"> 觀看電影或劇集</li>
+        <li><input type="radio" name="question1" value="D"> 聽音樂或玩樂器</li>
+    </ul>
+    
+    <h2>2. 選擇一個你最嚮往的旅遊地點：</h2>
+    <ul>
+        <li><input type="radio" name="question2" value="A"> 歷史古城</li>
+        <li><input type="radio" name="question2" value="B"> 海邊沙灘</li>
+        <li><input type="radio" name="question2" value="C"> 繁華的大都市</li>
+        <li><input type="radio" name="question2" value="D"> 寧靜的鄉村</li>
+    </ul>
+
+    <button onclick="showResult()">提交</button>
+
+    <div id="result"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
