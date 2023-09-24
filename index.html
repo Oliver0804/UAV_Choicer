@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>心理測驗</title>
+    <title>UAV_Choicer</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="chart.js"></script> <!-- 引入 chart.js -->
 </head>
 <body>
-    <h1>心理測驗</h1>
+    <h1>UAV_Choicer</h1>
     <h2>1. 你偏好的休閒活動是什麼？</h2>
     <ul>
         <li><input type="radio" name="question1" value="A"> 閱讀書籍</li>
@@ -26,8 +27,11 @@
 
     <button onclick="showResult()">提交</button>
 
-    <div id="result"></div>
+    <div id="result">
+        <!-- 為圖表建立一個<canvas>元素 -->
+        <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
     
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- 引入 script.js -->
 </body>
 </html>
