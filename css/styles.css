@@ -1,73 +1,124 @@
-/* 根據當前的Facebook藍色 */
-body {
-    font-family: Arial, sans-serif; 
-    background-color: #f2f3f5;
-    color: #1c1e21;
-    padding: 20px;
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
-h1 {
-    font-size: 2em;
-    color: #1877f2;
-    border-bottom: 2px solid #ddd;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
+body {
+    background-color: #121212;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 a {
-    color: #1877f2;
     text-decoration: none;
-    font-weight: bold;
-    padding: 5px 10px;
-    margin-right: 10px;
-    background-color: #f2f3f5;
-    border-radius: 5px;
+    color: #4CAF50;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    background-color: #e9ebee;
+    color: #81C784;
 }
 
-ul {
-    list-style-type: none;
-    padding-left: 0;
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 3px solid #4CAF50;
 }
 
-li {
+h1 {
+    margin-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 2px solid #4CAF50;
+}
+
+h2 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.uav-types {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.uav-image {
+    max-width: 100%;
+    width: 200pt;
     margin-bottom: 10px;
 }
 
+.fixed-wing-images img {
+    margin-right: 10px;
+}
+
+iframe {
+    max-width: 50%;
+    margin-top: 10px;
+}
+
+.questionnaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 button {
-    background-color: #1877f2;
-    color: white;
     padding: 10px 20px;
+    background-color: #4CAF50;
     border: none;
     border-radius: 5px;
+    color: #FFF;
+    font-size: 1rem;
     cursor: pointer;
-    font-size: 1em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #165fa9;
+    background-color: #81C784;
 }
 
-#result {
-    margin-top: 20px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    background-color: white;
-    border-radius: 5px;
+footer {
+    padding: 20px;
+    background-color: #333;
+    text-align: center;
 }
 
-img {
-    max-width: 100%;
+canvas {
+    max-width: 50%;
     height: auto;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-
-#myChart {
-    width: 400px;
-    height: 400px;
+    display: block;
+    margin: 0 auto;
 }
