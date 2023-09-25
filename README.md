@@ -1,20 +1,47 @@
-# UAV_Choicer
-"UAV Choicer" is a tool for aviation enthusiasts and pilots. Through a series of questions, it identifies the best drone for you. Whether a newbie or pro, find your ideal quadcopter, helicopter, or fixed-wing. Begin now and discover your perfect flight match!
+# UAV Choicer - Drone Selection Guide (無人機選擇指南)
 
-# UAV Choicer - 無人機選擇指南
-## 「UAV Choicer」 是專為航空愛好者和專業飛行員所設計的心理測驗工具。透過一系列精心設計的問題，我們希望幫助你瞭解自己真正適合的飛行器類型。
+"UAV Choicer" is an advanced tool meticulously crafted for both aviation enthusiasts and professional pilots. This tool offers a personalized experience that leads you to identify the drone that harmonizes best with your needs and desires. Dive in, and let's embark on a journey to discover your next flying partner!
 
-## 無論你是初學者還是經驗豐富的飛行員，選擇合適的無人機總是一個重要但困難的決策。每種飛行器都有其獨特的特點和適用場景，而你的個性、偏好和需求又如何與之匹配？
+「UAV Choicer」是為航空愛好者和專業飛行員精心設計的先進工具。這個工具為您提供了一個個性化的體驗，引領您找到最符合您需求和願望的無人機。現在就深入了解，讓我們一起開啟尋找您的飛行伙伴之旅！
 
-## 「UAV Choicer」 將引導你完成一個快速的心理測驗，基於你的答案，我們會為你推薦最適合你的飛行器類型。無論是穩定的四軸飛行器、靈活的直升機還是高速的飛翼，讓我們幫助你做出明智的選擇！
+---
 
-## 開始你的測驗，找到屬於你的飛行夥伴！
+## Features (功能特點)
 
-# UAV Choicer - Drone Selection Guide
-## "UAV Choicer" is a psychological test tool specifically designed for aviation enthusiasts and professional pilots. Through a series of carefully crafted questions, we aim to help you understand which type of aircraft truly suits you.
+- **Tailored Experience**: With our series of expertly designed questions, UAV Choicer gets to know you before making the ultimate recommendation.
+  
+  **個性化體驗**：通過我們精心設計的問題系列，「UAV Choicer」在給您提供最終推薦之前先深入了解您。
 
-## Whether you are a beginner or an experienced pilot, choosing the right drone is always an important yet challenging decision. Each aircraft has its unique characteristics and suitable scenarios. How do your personality, preferences, and needs match with them?
+- **Broad Spectrum**: Whether you fancy quadcopters, helicopters, or fixed-wings, UAV Choicer encompasses all.
 
-## "UAV Choicer" will guide you through a quick psychological test. Based on your answers, we will recommend the aircraft type that best fits you. Whether it's a stable quadcopter, a nimble helicopter, or a fixed-wing, let us assist you in making a wise choice!
+  **廣泛的範疇**：無論您喜歡四軸飛行器、直升機還是固定翼，「UAV Choicer」都囊括其中。
 
-## Begin your test and find your flying companion!
+- **User-Friendly Interface**: Simple yet intuitive, making your journey seamless and enjoyable.
+
+  **用戶友好的界面**：簡單直觀，確保您的體驗流暢而愉快。
+
+---
+
+## How It Works? (如何運作?)
+
+UAV Choicer delves deep into your preferences through its comprehensive questionnaire. It evaluates your responses and matches you with the ideal aircraft. It's not just about the tech; it's about finding your flying companion!
+
+「UAV Choicer」通過其全面的問卷深入了解您的偏好。它評估您的回答並將您與理想的飛行器匹配。這不僅僅是關於技術，更是關於找到您的飛行夥伴！
+
+---
+
+## Get Started (開始使用)
+
+Embark on this enlightening journey by clicking [here](https://oliver0804.github.io/UAV_Choicer/). 
+
+通過點擊[這裡](https://oliver0804.github.io/UAV_Choicer/)開始這次啟示之旅。
+
+---
+
+## Feedback & Suggestions (反饋和建議)
+
+We're always striving for perfection. If you have any feedback or suggestions, please contact us. 
+
+我們始終追求完美。如果您有任何反饋或建議，可以直接於github提交問題。
+
+---
