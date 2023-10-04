@@ -8,6 +8,9 @@ function showResult() {
 
     console.log("開始計算分數...");
 
+    // 語言偵測
+    var lang = document.documentElement.lang || "zh-TW";
+
     fetch('https://raw.githubusercontent.com/Oliver0804/UAV_Choicer/main/questions.json')
         .then(response => response.json())
         .then(questions => {
@@ -46,8 +49,9 @@ function showResult() {
                 }
             });
 
+            let alertText = lang === "zh-TW" ? `以下問題未選擇答案: ${unselectedQuestions.join(", ")}` : `The following questions are not answered: ${unselectedQuestions.join(", ")}`;
             if (unselectedQuestions.length > 0) {
-                alert(`以下問題未選擇答案: ${unselectedQuestions.join(", ")}`);
+                alert(alertText);
             }
 
             let results = {
@@ -57,8 +61,10 @@ function showResult() {
                 D: scoreD
             };
 
+            var resultText = lang === "zh-TW" ? `四軸飛行器/穿越機：${results.A}，直升機：${results.B}，固定翼/滑翔翼：${results.C}，DIY自組無人機：${results.D}` : `Quadcopter/FPV: ${results.A}, Helicopter: ${results.B}, Fixed-wing/Glider: ${results.C}, DIY Drone: ${results.D}`;
+
             var resultDiv = document.getElementById('result');
-            resultDiv.innerHTML = `四軸飛行器/穿越機：${results.A}，直升機：${results.B}，固定翼/滑翔翼：${results.C}，DIY自組無人機：${results.D}`;
+            resultDiv.innerHTML = resultText;
 
             console.log("計算完成，結果已顯示在頁面上");
 
@@ -73,6 +79,11 @@ function showResult() {
 var myChart; // 宣告一個全局變數來保存圖表實例
 
 function renderChart(results) {
+        var ctx = document.getElementById('myChart').getContext('2d');
+    var lang = document.body.getAttribute('data-lang');
+    
+    var textLabels = lang === "zh-TW" ? ['四軸飛行器/穿越機', '直升機', '固定翼/滑翔翼', 'DIY自組無人機'] : ['Quadcopter/FPV', 'Helicopter', 'Fixed-wing/Glider', 'DIY Drone'];
+    
     var ctx = document.getElementById('myChart').getContext('2d');
     
     // 檢查是否已經有一個圖表存在
@@ -84,8 +95,8 @@ function renderChart(results) {
     myChart = new Chart(ctx, {
         type: 'pie',
         data: {
-            labels: ['四軸飛行器/穿越機', '直升機', '固定翼/滑翔翼', 'DIY自組無人機'],
-            datasets: [{
+            labels: textLabels,
+                datasets: [{
                 data: [results.A, results.B, results.C, results.D],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
@@ -105,3 +116,4 @@ function renderChart(results) {
 
     });
 }
+
