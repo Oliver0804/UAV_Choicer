@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What's your preference for outdoor activity intensity?",
+        "options": {
+            "A": "Short-distance rapid movement",
+            "B": "Medium-long distance continuous movement",
+            "C": "High-altitude gliding, smooth flying",
+            "D": "Enjoy trying and adjusting different equipment"
+        },
+        "weight": 4
+    },
+    {
+        "question": "Which technical challenge are you interested in?",
+        "options": {
+            "A": "Instantaneous speed and response",
+            "B": "Precise control and skills",
+            "C": "Long-time flight and observation",
+            "D": "Electronic components and assembly"
+        },
+        "weight": 4
+    },
+    {
+        "question": "When considering purchasing recreational products, what's most important to you?",
+        "options": {
+            "A": "Excitement and speed",
+            "B": "Skills and challenges",
+            "C": "Relaxation and appreciation",
+            "D": "Customization and price"
+        },
+        "weight": 4
+    },
+    {
+        "question": "When playing with a new toy, you usually prefer?",
+        "options": {
+            "A": "Quick to start and interesting",
+            "B": "Needs practice and depth",
+            "C": "Can appreciate or relax",
+            "D": "Can disassemble or upgrade"
+        },
+        "weight": 4
+    },
+    {
+        "question": "How is your hands-on ability?",
+        "options": {
+            "A": "Seeking instant pleasure",
+            "B": "Enjoy challenges and overcoming them",
+            "C": "Enjoy calm and tranquility",
+            "D": "Love tinkering and self-creating"
+        },
+        "weight": 4
+    },
+    {
+        "question": "What's your preferred recreational activity location?",
+        "options": {
+            "A": "Parks or open spaces",
+            "B": "Hiking or mountainous areas",
+            "C": "Lakes or open areas",
+            "D": "Home or studio"
+        },
+        "weight": 4
+    },
+    {
+        "question": "What type of game do you like?",
+        "options": {
+            "A": "Action and racing",
+            "B": "Simulation and strategy",
+            "C": "Adventure and role-playing",
+            "D": "Puzzles and building"
+        },
+        "weight": 4
+    },
+    {
+        "question": "When choosing a travel destination, you'd prefer?",
+        "options": {
+            "A": "City sightseeing and shopping",
+            "B": "Mountain climbing or polar exploration",
+            "C": "Seaside or natural scenery",
+            "D": "Visiting technology or manufacturing"
+        },
+        "weight": 4
+    },
+    {
+        "question": "What's your favorite mode of transportation?",
+        "options": {
+            "A": "Motorcycle or racing car",
+            "B": "Bicycling or running",
+            "C": "Paraglider or hot air balloon",
+            "D": "DIY or modified vehicles"
+        },
+        "weight": 4
+    },
+    {
+        "question": "When learning a new skill, you prefer?",
+        "options": {
+            "A": "Quick start, see the effects immediately",
+            "B": "Practice slowly, refine the skills",
+            "C": "Relax and enjoy the process",
+            "D": "Start from basics, delve into it"
+        },
+        "weight": 4
+    },
+    {
+        "question": "What's your usual recreational activity?",
+        "options": {
+            "A": "Outdoor fun and adventures",
+            "B": "Focus on something, like meditation or practice",
+            "C": "Appreciating nature or artworks",
+            "D": "Research or craft something"
+        },
+        "weight": 4
+    },
+    {
+        "question": "In recreational activities, you prioritize?",
+        "options": {
+            "A": "Pleasure during the process",
+            "B": "Skill acquisition and display",
+            "C": "The spiritual experience of the activity",
+            "D": "Uniqueness and creativity"
+        },
+        "weight": 4
+    },
+    {
+        "question": "Your personality tends towards?",
+        "options": {
+            "A": "Active and extroverted",
+            "B": "Attentive and persistent",
+            "C": "Calm and observant",
+            "D": "Curious and explorative"
+        },
+        "weight": 4
+    },
+    {
+        "question": "What's your favorite sport?",
+        "options": {
+            "A": "Short-distance sprinting or jumping",
+            "B": "Yoga or Tai Chi",
+            "C": "Swimming or skiing",
+            "D": "Assembling models or toys"
+        },
+        "weight": 4
+    },
+    {
+        "question": "Your playstyle leans towards?",
+        "options": {
+            "A": "Seeking speed and thrill",
+            "B": "Challenge one's own limits",
+            "C": "Appreciating scenery and harmony",
+            "D": "Love innovation and experimenting"
+        },
+        "weight": 4
+    },
+    {
+        "question": "Your approach towards tasks is?",
+        "options": {
+            "A": "Quick and direct",
+            "B": "Steady and rhythmic",
+            "C": "Relaxed, meticulous",
+            "D": "Multi-faceted, love novelty"
+        },
+        "weight": 4
+    },
+    {
+        "question": "Towards new skills or hobbies, your attitude is?",
+        "options": {
+            "A": "Love trying new things",
+            "B": "Immerse in it, pursue professionalism",
+            "C": "Enjoy the process, not the result",
+            "D": "Delve deep, continuous optimization"
+        },
+        "weight": 4
+    },
+    {
+        "question": "How interested are you in assembling or repairing items?",
+        "options": {
+            "A": "Like simple assemblies",
+            "B": "Interested but not good at it",
+            "C": "Usually buy ready-made items",
+            "D": "Very interested, do it frequently"
+        },
+        "weight": 4
+    },
+    {
+        "question": "Which toy or game do you prefer?",
+        "options": {
+            "A": "Thrilling racing games",
+            "B": "Strategic board games",
+            "C": "Realistic flight simulations",
+            "D": "Building or simulation types"
+        },
+        "weight": 4
+    },
+    {
+        "question": "When learning or playing, you prefer the pace to be?",
+        "options": {
+            "A": "Fast and varied",
+            "B": "Medium, with a certain rhythm",
+            "C": "Slow, savoring each moment",
+            "D": "Adjust according to the situation"
+        },
+        "weight": 4
+    }
+]

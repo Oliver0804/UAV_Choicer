@@ -1,83 +1,80 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UAV_Choicer</title>
+    <title>UAV Choicer</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="/pic/drone.png" type="image/png">
-
-
 </head>
 
 <body>
     <header>
-        <h1>新手入坑UAV 選擇器 UAV Choicer </h1>
+        <h1>UAV Choicer for Beginners</h1>
         <div class="social-links">
             <a href="https://www.facebook.com/groups/ardupilot.taipei" target="_blank">
-                <img src="pic/fb.png" alt="Facebook" class="social-icon"> ArduPilot Taipei Facebook群組
+                <img src="pic/fb.png" alt="Facebook" class="social-icon"> ArduPilot Taipei Facebook Group
             </a>
             <a href="https://github.com/Oliver0804/UAV_Choicer" target="_blank">
-                <img src="pic/github.png" alt="GitHub" class="social-icon"> UAV_Choicer GitHub項目
+                <img src="pic/github.png" alt="GitHub" class="social-icon"> UAV_Choicer GitHub Project
             </a>
             <a href="https://miro.com/app/board/uXjVM02pAqw=/" target="_blank">
-                <img src="pic/miro.png" alt="miro" class="social-icon"> Ardupilot 資料彙整
+                <img src="pic/miro.png" alt="miro" class="social-icon"> Ardupilot Information Collection
             </a>
         </div>
     </header>
 
     <section class="intro">
-        <h2>UAV Choicer 簡介</h2><p>最後更新時間: <span id="updateTime"></span></p>
-        <p>UAV Choicer 是一款專門為無人機愛好者設計的選擇輔助工具。面對眾多的無人機選項，UAV Choicer 旨在幫助使用者根據自己的需求和興趣，推薦最合適的無人機類型。</p>
-        <p>透過一系列的問題，此工具將考量使用者對於飛行器的喜好、預期的用途、技能水平等多種因素，並對每一個選項給予權重，最後給出一個依據個人特質的無人機推薦結果。結果包含四大類：四軸飛行器/穿越機、直升機、固定翼/滑翔翼以及DIY自組無人機。</p>
+        <h2>Introduction to UAV Choicer</h2><p>Last Update Time: <span id="updateTime"></span></p>
+        <p>UAV Choicer is a selection assistance tool specially designed for drone enthusiasts. Facing a myriad of drone options, UAV Choicer aims to recommend the most suitable drone type to users based on their needs and interests.</p>
+        <p>Through a series of questions, this tool will consider users' preferences for the aircraft, expected use, skill level, and other factors. It then assigns weights to each option, finally giving a drone recommendation based on individual characteristics. The results include four main categories: Quadcopters/Racing Drones, Helicopters, Fixed-Wing/Gliders, and DIY self-assembled drones.</p>
     </section>
 
     <section class="uav-types">
-        <h2>無人機常見的種類</h2>
+        <h2>Common Types of Drones</h2>
         <br>
-        <p>可以先看看下面影片，參考以下你想像中的UAV是怎的一個存在。</p>
+        <p>You can first watch the video below as a reference to imagine the presence of the UAV you have in mind.</p>
 
         <br><br>
-        <!-- 直升機 -->
+        <!-- Helicopter -->
         <article>
-            <h3>直升機 Helicopter</h3>
-            <img src="pic/heli.png" alt="直升機" class="uav-image">
+            <h3>Helicopter</h3>
+            <img src="pic/heli.png" alt="Helicopter" class="uav-image">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/AXSfFLGeVZA?si=g3K_FROlc8q4b2Xh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </article>
-        <!-- 空拍機/四軸 -->
+        <!-- Drone/Quadcopter -->
         <article>
-            <h3>空拍機/四軸 drone quadcopter</h3>
-            <img src="pic/dji.png" alt="空拍機" class="uav-image">
+            <h3>Drone/Quadcopter</h3>
+            <img src="pic/dji.png" alt="Drone" class="uav-image">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/r5kukRMmZNI?si=WN88UVMVOkCVCf5C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </article>
-        <!-- 穿越機 -->
+        <!-- Racing Drone -->
         <article>
-            <h3>穿越機 DJI FPV</h3>
-            <img src="pic/fpv.jpg" alt="空拍機" class="uav-image">
-
+            <h3>Racing Drone DJI FPV</h3>
+            <img src="pic/fpv.jpg" alt="Racing Drone" class="uav-image">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/OQ2W4BPAZHY?si=iBO7dIEhlNwg7LcB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </article>
-        <!-- 固定翼 -->
+        <!-- Fixed Wing -->
         <article>
-            <h3>固定翼 fixed wing</h3>
+            <h3>Fixed Wing</h3>
             <div class="fixed-wing-images">
-                <img src="pic/fixedwing1.jpg" alt="固定翼1" class="uav-image">
-                <img src="pic/fixedwing2.jpg" alt="固定翼2" class="uav-image">
+                <img src="pic/fixedwing1.jpg" alt="Fixed Wing 1" class="uav-image">
+                <img src="pic/fixedwing2.jpg" alt="Fixed Wing 2" class="uav-image">
             </div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/YodyagM8iyk?si=2DqQM03yzxMnsESx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </article>
-        <!-- 基於Arduino或是ESP32的飛行器項目 -->
+        <!-- Projects based on Arduino or ESP32 -->
         <article>
-            <h3>基於Arduino或是ESP32進行的飛行器項目</h3>
-            <img src="pic/esp32.png" alt="Arduino與ESP32項目" class="uav-image">
+            <h3>Flight Projects based on Arduino or ESP32</h3>
+            <img src="pic/esp32.png" alt="Arduino & ESP32 Projects" class="uav-image">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Og3UgKUZ_hI?si=1z8LJEBjhnb2uow7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </article>
     </section>
 
     <section class="questionnaire">
         <div id="questions"></div>
-        <button onclick="showResult()">提交</button>
+        <button onclick="showResult()">Submit</button>
         <div id="result"></div>
     </section>
 
@@ -86,7 +83,7 @@
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script defer src="js/script.js"></script>
         <script>
-            fetch('https://raw.githubusercontent.com/Oliver0804/UAV_Choicer/main/questions.json')
+            fetch('https://raw.githubusercontent.com/Oliver0804/UAV_Choicer/main/questions-en.json')
                 .then(response => response.json())
                 .then(data => {
                     const questionsDiv = document.getElementById('questions');
@@ -100,29 +97,18 @@
                         questionsDiv.innerHTML += questionHTML;
                     });
                 });
-                
         </script>
         <script>
             fetch('https://api.github.com/repos/Oliver0804/UAV_Choicer/commits')
     .then(response => response.json())
     .then(data => {
-        const lastUpdate = new Date(data[0].commit.author.date).toLocaleString('zh-TW');  // 轉換為當地時間
+        const lastUpdate = new Date(data[0].commit.author.date).toLocaleString('en-US');  // Convert to local time
         document.getElementById('updateTime').textContent = lastUpdate;
     })
     .catch(error => console.error('Error fetching the update time:', error));
 
         </script>
-                <script>
-                    <script type="text/javascript">
-            window.onload = function() {
-                var userLang = navigator.language || navigator.userLanguage; 
-                if (userLang.indexOf("zh") !== -1) {
-                    window.location.href = "index.html";
-                } else {
-                    window.location.href = "index-en.html";
-                }
-            }
-        </script>
+    
     </footer>
 </body>
 
